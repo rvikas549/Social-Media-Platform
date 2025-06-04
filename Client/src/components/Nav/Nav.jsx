@@ -15,17 +15,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-// import React from 'react'
-// import "./Nav.css"
-// const Nav = () => {
-//   return (
-//     <div className='nav'>
-//         <button>Message</button>
-//         <button>Post</button>
-//         <button>Profile</button>        
-//     </div>
-//   )
-// }
-
-// export default Nav

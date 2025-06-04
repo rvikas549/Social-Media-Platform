@@ -18,13 +18,3 @@ router.get('/user/:uid', getUserPosts);
 export default router;
 
 
-// import express from "express";
-// import { upload } from "../middleware/upload.js";
-// import { uploadPost } from "../Controllers/postController.js";
-
-// const router = express.Router();
-
-// // Route to upload post
-// router.post("/uploads", upload.single("image"), uploadPost);
-
-// export default router;
