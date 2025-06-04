@@ -83,10 +83,13 @@ src/
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone the Repo
+
 ```bash
 git clone https://github.com/your-username/petgram.git
 cd petgram
+---
+### 1. Clone the Repo
+
 ### 2. Setup Environment Variables
 
 ### 3. npm i for both Server and Client
