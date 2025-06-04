@@ -1,0 +1,41 @@
+/* FriendChatList.css */
+.friend-chat-list {
+    background-color: #0e2e3b;
+    color: white;
+    padding: 1rem;
+    height: 60%;
+    width: 400px;
+    border-radius: 10px;
+    
+  }
+  
+  .friend-item {
+    background-color: #e0e0e0;
+    color: black;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+  }
+  
+  .friend-item:hover {
+    background-color: #ccc;
+  }
+  
+  .messHeader{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .messageCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

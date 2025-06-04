@@ -1,0 +1,28 @@
+/* .home{
+    background-image: url("../../../public/Backg.png");
+    display:flex;
+    flex-direction: row;
+} */
+
+.home {
+  /* background: linear-gradient(to bottom, #b6d0e2, #d5aee2); */
+  display: flex;
+  flex-direction: row;
+
+  /* Full screen */
+  width: 100vw;
+  height: 100%;
+
+  /* Push content visually above background */
+  position: relative;
+  z-index: 0;
+}
+
+.home > * {
+  position: relative;
+  z-index: 1; /* Ensures children are on top of background */
+  /* Optional: soften background inside */
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}

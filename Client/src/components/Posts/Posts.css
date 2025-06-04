@@ -1,0 +1,121 @@
+/* Container for feed */
+.fullHome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 25px;
+  border-right: 2px solid black;
+  border-radius: 0%;
+  padding-right: 45px;
+}
+
+.feed-container {
+  /* background-color: #a3b6c0;  */
+  flex: 1;
+  padding: 20px;
+  border-radius: 3%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  overflow-y: auto;
+  --container-width: 500px; /* You can override this using inline style */
+  width: var(--container-width);
+  max-width: 550px;
+}
+
+/* Title styling */
+.feed-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #003049;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* List of posts */
+.feed-container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%; /* Take full width of the container */
+}
+
+/* Individual post card */
+.post-card {
+  background-color: #003049;
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  width: 100%; /* Full width of the feed-container */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.post-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.post-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+/* .post {
+    border-radius: 10px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    padding: 1rem;
+    margin: 1.5rem;
+    color: white;
+  }
+  
+  .container{
+    background-color: #092635;
+  }
+
+  .post-header {
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .post-icon {
+    margin-right: 10px;
+  }
+  
+  .post-username {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .post-image img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+
+    .login-title {
+    font-size: 4rem;
+    color: #002E3B;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 800;
+    border-bottom: 2px solid black;
+  }
+  
+  .feed-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  width: 800px;
+} */
