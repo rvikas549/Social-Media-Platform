@@ -1,6 +1,6 @@
 # 🐾 Petgram – Social Media for Pet Lovers
 
-Petgram is a full-stack social media web application built with the **MERN Stack (MongoDB, Express.js, React, Node.js)**, featuring **Firebase Authentication**, **Cloudinary image uploads**, and **Socket.io**-based real-time chat. Users can post pet photos, chat with friends, and engage with content through likes and comments.
+Petgram is a full-stack social media web application built with the **MERN Stack (MongoDB, Express.js, React, Node.js)**, featuring **Firebase Authentication**, **Cloudinary image uploads**, and **Socket.io**-based real-time chat. Users can post pet photos, chat with friends, and engage with content and chat with friends.
 
 ---
 
