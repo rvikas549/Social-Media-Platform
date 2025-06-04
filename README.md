@@ -4,11 +4,6 @@ Petgram is a full-stack social media web application built with the **MERN Stack
 
 ---
 
-## 🔗 Live Demo (optional)
-> Add your deployed URL here (e.g., Vercel/Netlify + Render/Heroku)
-
----
-
 ## 📸 Screenshots
 
 | Login | Feed | Upload Post |
@@ -52,7 +47,7 @@ Petgram is a full-stack social media web application built with the **MERN Stack
 
 | Layer | Technology |
 |-------|------------|
-| Frontend | React + Vite + Tailwind CSS |
+| Frontend | React.js + CSS |
 | Backend | Node.js + Express |
 | Database | MongoDB (Mongoose) |
 | Authentication | Firebase Auth |
@@ -63,4 +58,47 @@ Petgram is a full-stack social media web application built with the **MERN Stack
 ---
 
 ## 📁 Project Structure (Frontend)
+src/
+├── assets/
+├── components/
+│ ├── Navbar.jsx
+│ ├── PostCard.jsx
+│ ├── ChatBox.jsx
+│ ├── FriendList.jsx
+├── context/
+│ ├── AuthContext.jsx
+│ ├── ChatContext.jsx
+├── pages/
+│ ├── Login.jsx
+│ ├── Feed.jsx
+│ ├── UploadPost.jsx
+│ ├── Profile.jsx
+│ └── Chat.jsx
+├── utils/
+│ └── api.js
+└── App.jsx
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/your-username/petgram.git
+cd petgram
+### 2. Setup Environment Variables
+
+### 3. npm i for both Server and Client
+
+### 4. npm run dev for Client
+
+### 5. nodemon index.js for Server
+
+### 6. Create Firebase, MongoDB, Cloudinary credentials and start the PETGRAM
+
+Make any changes if you love this project Thank You😁
+
+
+
 
