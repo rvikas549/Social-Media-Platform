@@ -13,11 +13,11 @@ Petgram is a full-stack social media web application built with the **MERN Stack
 
 | Login | Feed | Upload Post |
 |:--:|:--:|:--:|
-| ![](screenshots/Login.png) | ![](screenshots/FeedPage.png) | ![](screenshots/UploadPost.png) |
+| ![](Login.png) | ![](FeedPage.png) | ![](UploadPost.png) |
 
 | Profile | Chat |
 |:--:|:--:|
-| ![](screenshots/Profile.png) | ![](screenshots/ChatPage.png) |
+| ![](Profile.png) | ![](ChatPage.png) |
 
 ---
 
